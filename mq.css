@@ -1,0 +1,59 @@
+@media only screen and (max-width: 768px) {
+    .home .home-content h1{
+    font-size: 40px;
+}
+.home .home-content p{
+    font-size: 15px;
+}
+    .home .navbar ul{
+        position: absolute;
+        background-color: rgb(204, 33, 33);
+        width: 100%;
+        left: 0;
+        top: 100%;
+        z-index: 99999;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .5s;
+    }
+    .home .navbar ul li{
+        float: none;
+        padding: 18px;
+        
+    }
+    .icon{
+        visibility: visible;
+    }
+    .icon:hover + ul{
+    opacity: 1;
+    visibility: visible;
+}
+.about .about-img , .about .about-content{
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.about .about-img .border{
+    border: none;
+}
+
+.about .about-img .border .img{
+  top: 0;
+  left: 0;
+}
+.about .about-content ul li{
+    width: 100%;
+}
+.services .serv-item{
+    width: 100%;
+}
+.portfolio .portfolio-card{
+    width: 100%;
+}
+.portfolio ul{
+    width: 100%;
+}
+.blog .blog-item{
+    width: 100%;
+}
+}
